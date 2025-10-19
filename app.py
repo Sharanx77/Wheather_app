@@ -6,7 +6,7 @@ import pytz # Necessary for accurate time zone handling
 
 # --- Configuration ---
 API_KEY = "5a53980184dd4b1e993193b19f7d2d18"
-CURRENT_URL = "https://nomiatim.openstreetmap.org/search?city=${city}&format=json"
+CURRENT_URL = "http://api.openweathermap.org/data/2.5/weather"
 FORECAST_URL = "http://api.openweathermap.org/data/2.5/forecast"
 
 # --- Utility Functions ---
@@ -185,4 +185,5 @@ st.sidebar.markdown("- Sydney, AU")
 # --- How to Run ---
 st.sidebar.markdown("---")
 st.sidebar.subheader("How to Run")
+
 st.sidebar.code("streamlit run weather_app.py")
