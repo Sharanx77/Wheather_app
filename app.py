@@ -175,15 +175,5 @@ if st.button("Get Weather", use_container_width=True) and city_name:
             })
             st.dataframe(df_display, hide_index=True)
 
-# --- Sample Queries ---
-st.sidebar.markdown("---")
-st.sidebar.subheader("Sample Queries")
-st.sidebar.markdown("- Tokyo, JP")
-st.sidebar.markdown("- New York, US")
-st.sidebar.markdown("- Sydney, AU")
 
-# --- How to Run ---
-st.sidebar.markdown("---")
-st.sidebar.subheader("How to Run")
 
-st.sidebar.code("streamlit run weather_app.py")
